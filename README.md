@@ -33,9 +33,9 @@ Longitude requests span the possible range (-180 to +80 degrees) and are general
 ## What's the weather like as we approach the equator?
 Scatter plots are produced for the above variables versus latitude and then the code separates the data into Northern and Southern Hemisphere and does a regression analysis on each of the eight plots.
 
-![Latitude versus max Temperature](Images/Regression_MaxTemp_versus_Latitude_in_Northern-hemisphere.png)
+![Latitude versus max Temperature](Images/Regression_MaxTemp_versus_Latitude_in_Northern_hemisphere.png)
 
-![Latitude versus max Temperature](Images/Regression_MaxTemp_versus_Latitude_in_Southern-hemisphere.png)
+![Latitude versus max Temperature](Images/Regression_MaxTemp_versus_Latitude_in_Southern_hemisphere.png)
 
 No surprise there are correlations for maxTemp versus latitude in both hemispheres with r-squared on the 0.7 range. There is no correlation (on the day and time the data was pulled) for Wind Speed, Humidity and Cloudiness with latitude.
 
