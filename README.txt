@@ -19,7 +19,7 @@ This application has been developed in Python using Jupyter Notebook. To accompl
 ## Approach
 The code creates 2000 random (but possible) latitude-longitude pairings and then attempts to find a proximate city using the citipy api. If the api finds a city then precise lat-long is acquired and the Open Weather Map is queried for current weather data.
 
-The code loops until 500 unique cities have been found -  removing duplicates and skipping cities where no data is returned using ‘try and except’ – it takes about 1300 requests to generate 500 unique results. 
+The code loops until 500 unique cities have been found -  removing duplicates and skipping cities where no data is returned using ï¿½try and exceptï¿½ ï¿½ it takes about 1300 requests to generate 500 unique results. 
 
 One important question is whether the returned cities represent a good spread of data points for the analysis. The charts below indicate that:
 
@@ -54,7 +54,7 @@ A histogram of frequency of requested latitudes and returned latitudes and frequ
 
 What's the weather like as we approach the equator?
 
-In this example, I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I used a [simple Python library] (https://pypi.python.org/pypi/citipy), and the [OpenWeatherMap API] (https://openweathermap.org/api. The code randomly selects 500 unique (non-repeat) cities based on latitude and longitude removing duplicates and skipping cities where no data is returned by the OpenWeatherMap – it takes about 1300 requests to generate 500 unique results. A histogram of frequency of requested latitudes and returned latitudes and frequency of requested and returned longitudes versus longitude was plotted to ensure the data points represented the full range of possible city locations.
+In this example, I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I used a [simple Python library] (https://pypi.python.org/pypi/citipy), and the [OpenWeatherMap API] (https://openweathermap.org/api. The code randomly selects 500 unique (non-repeat) cities based on latitude and longitude removing duplicates and skipping cities where no data is returned by the OpenWeatherMap ï¿½ it takes about 1300 requests to generate 500 unique results. A histogram of frequency of requested latitudes and returned latitudes and frequency of requested and returned longitudes versus longitude was plotted to ensure the data points represented the full range of possible city locations.
 
 
 
@@ -66,7 +66,7 @@ No surprise there are correlations for maxTemp versus latitude in both hemispher
 
 ## Part II - VacationPy
 
-Using the 500 city dataset from above, the code creates a heat map that displays the humidity as a heatmap for every city using the Google Maps API. The code takes user input to to find locations with the user’s ideal weather conditions. The code then calls the Google Places API to find the first hotel for each city located within 5000 meters of its coordinates.
+Using the 500 city dataset from above, the code creates a heat map that displays the humidity as a heatmap for every city using the Google Maps API. The code takes user input to to find locations with the userï¿½s ideal weather conditions. The code then calls the Google Places API to find the first hotel for each city located within 5000 meters of its coordinates.
 The hotels are plotted on top of the humidity heatmap with each pin containing the Hotel Name, Hotel Address and Country.
 
 
@@ -77,5 +77,3 @@ The hotels are plotted on top of the humidity heatmap with each pin containing t
 
 John Russell
 May 01, 2021
-
-
